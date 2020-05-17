@@ -1,8 +1,11 @@
-# GameTag
-Official implementation of paper "GameTag: A New Sequence Tag Generation Algorithm Based on Cooperative Game Theory"
+# Introduction
+This repository is for **GameTag: A New Sequence Tag Generation Algorithm Based on Cooperative Game Theory**.
 
+## Requirements
+* Python 3
+* numpy
+* [PyTorch](http://pytorch.org/) (>1.0)
 
-Requirements: Pytorch 1.4 and python 3.7 
 
 # Training 
 
