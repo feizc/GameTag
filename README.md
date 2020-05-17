@@ -22,6 +22,6 @@ For the convenience of demonstration, we provide the [mgf](https://pan.baidu.com
 
 # Inference 
 
-You can employ the model check provided by ours or the best performance model from training by your self to generate the tag sequences. 
+You can employ the model checkpoint provided by ours or the best performance model from training by yourself to generate the tag sequences. 
 
 
