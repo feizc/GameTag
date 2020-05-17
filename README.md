@@ -11,11 +11,11 @@ This repository is for **GameTag: A New Sequence Tag Generation Algorithm Based 
 
 The basic training process is completed as: 
 
-1. download the mass spectrum file (.mgf), labeled dataset and put it to direction '''/data'''. 
+1. download the mass spectrum file (.mgf), labeled dataset and put it to direction /data. 
 
 2. set the parameters such as where to store results file, model learning parameters. 
 
-3. run the cmd: '''python train.py''' 
+3. run the cmd: python train.py 
 
 For the convenience of demonstration, we provide the [mgf](https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
 
