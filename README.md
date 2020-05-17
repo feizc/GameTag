@@ -14,7 +14,7 @@ The basic training process is completed as:
 
 3. run the cmd: python train.py 
 
-For the convenience of demonstration, we provide the mgf[https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg] (password: j9pd) and labeled dataset[https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg] (password: 7jbc) used in our experiments.
+For the convenience of demonstration, we provide the [mgf](https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
 
 
 # Inference 
