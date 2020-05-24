@@ -69,10 +69,11 @@ class Edge(object):
 
 # Discriminate the tag candidates on the basis of tag features.
 class Discriminator(nn.Module):
-    def __init__(self):
+    def __init__(self, tag_length=5):
         super(Discriminator, self).__init__()
+        self.input_dim = 3 * tag_length + 2
         self.layers = nn.Sequential(
-            nn.Linear(17, 256),
+            nn.Linear(self.input_dim, 256),
             nn.ReLU(inplace=True),
             nn.Linear(256, 64),
             nn.ReLU(inplace=True),
