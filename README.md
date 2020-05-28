@@ -31,8 +31,8 @@ You can employ the model checkpoint provided by ours or the best performance mod
 
 # Evaluation 
 
-We also provide a automatic evaluation tool for tagging performance which can measure the metrics: sensitivity, tag coverage and average tag number.  
+We also provide an evaluation tool for tagging performance which can measure the metrics: sensitivity, tag coverage and average tag number automatically.  
 
 ```
-python evaluate.py [ResultFilePath] [AnnotatedDatasetPath] 
+python evaluate.py 
 ```
