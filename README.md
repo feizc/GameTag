@@ -1,6 +1,6 @@
 # Introduction
 
-This repository is official implementation for **GameTag**, which can generate sequence tags from tandem mass spectra with cooperative game learning.
+This repository is an official implementation for **GameTag**, which can generate sequence tags from tandem mass spectra with cooperative game learning.
 
 ## Requirements
 * Python 3
