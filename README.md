@@ -1,5 +1,6 @@
 # Introduction
-This repository is for **GameTag: A New Sequence Tag Generation Algorithm Based on Cooperative Game Theory**.
+
+This repository is official implementation for **GameTag**, which can generate sequence tags from tandem mass spectra whith cooperative game learning.
 
 ## Requirements
 * Python 3
