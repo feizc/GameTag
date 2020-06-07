@@ -5,7 +5,7 @@ This repository is an official implementation for **GameTag**, which can generat
 Please send any questions, comments or bug reports to feizhengcong@ict.ac.cn. 
 
 
-GameTag is a sequence tag generation algorithm for MS/MS specra. GameTag accrpts MS/MS spectra in the format of mgf, which can be  transformed from other formats by Open-pFind. 
+GameTag is a sequence tag generation algorithm for MS/MS specra. GameTag accepts MS/MS spectra in the format of mgf, which can be  transformed from other formats by Open-pFind. 
 
 # Requirements
 * Python 3
