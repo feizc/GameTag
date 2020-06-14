@@ -34,6 +34,9 @@ For the convenience of re-implementation, we provide the [mgf](https://pan.baidu
 
 You can employ the model checkpoint provided by ours or the best performance model from training by yourself to generate the tag sequences. 
 
+```
+python inference.py 
+```
 
 # Evaluation 
 
