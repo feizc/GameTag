@@ -98,13 +98,19 @@ At this point, you will hold two files, the mgf file and identification results 
 ```
 python data_label_union.py
 ``` 
-2. construct the training model according to the above two files. Run the cmd as: 
+
+2. construct the training dataset according to the above two files. Run the cmd as: 
 ```
 python label_dataset.py 
 ```
-3. open the train.py python file, and modify the parameters such as where to store your trained model and run the cmd as: 
+The training dataset is stored in the /data and named as labeled_tag.pkl by default.  
+
+3. open the train.py python file, and modify the parameters such as where to store your trained model and tag length, and run the cmd as: 
 ```
 python train.py 
-```
+``` 
+After several iterations, we can find the best model in the /data directions. Multiple models may be saved and feel free to use anyone you like. 
+
+
 For the convenience of re-implementation, we provide all the [mgf] datasets (https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
 
