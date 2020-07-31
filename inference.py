@@ -18,7 +18,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def model_init(model_path, device):
     ckpt = torch.load(model_path, map_location='cpu')
-    discriminator = TagDiscriminator()
+    discriminator = TagDiscriminator(tag_len=5)
     discriminator.load_state_dict(ckpt['model'])
     discriminator = discriminator.to(device)
     discriminator.eval()
