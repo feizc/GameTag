@@ -105,9 +105,9 @@ The formation of results file is consistent with Open-pFind, that is 1-th column
 python label_dataset.py 
 ```
 The training dataset is stored in the /data and named as labeled_tag.pkl by default.  
-Please note that if you want to change any parameters for any setting, just open the python file and you will find the parameter setting section in the top.  
 
-3. open the train.py python file, and modify the parameters such as where to store your trained model and tag length, and run the cmd as: 
+
+3. open the train.py python file, and modify the parameters such as where to store your trained model and tag length. Please note that if you want to change any parameters for any setting, just open the python file and you will find the parameter setting section in the top. Run the cmd as: 
 ```
 python train.py 
 ``` 
