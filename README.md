@@ -54,10 +54,14 @@ In this section, we will introduce the parameter setting in detail and customize
 a) CMD to determine the information: 
 
 ```
-python inference.py --mgf_path /data/human.mgf --model_path /data/CKPT --res_path /data/res.txt 
+python inference.py --mgf_path [mgf] --model_path [model] --res_path [result] 
 ```
 
-where --mgf_path denotes the path to the mgf file which we want to extract tag sequences, --model_path dentoes the path to trained model, and --res_path denotes the path to store the identification results. 
+where --mgf_path denotes the path to the mgf file which we want to extract tag sequences, --model_path dentoes the path to trained model, and --res_path denotes the path to store the identification results. Take the simple test as example, we can write the command as: 
+
+```
+python inference.py --mgf_path /data/human.mgf --model_path /data/CKPT --res_path /data/res.txt 
+```
 
 b) change the python file: 
 
