@@ -12,13 +12,14 @@ from model import TagDiscriminator
 # the path to labeled dataset
 # the checkpoint can be found in the same file path
 labeled_path = "./data/labeled_tag.pkl"
+tag_length = 5
 #-----------------------------------------------------------------------
 
 bsz = 200
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 train_loader = DataLoader(TagFeatureLoader(labeled_path), batch_size=bsz, shuffle=True)
-model = TagDiscriminator()
+model = TagDiscriminator(tag_len=tag_length)
 model = model.to(device)
 criterion = nn.CrossEntropyLoss().to(device)
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)

@@ -62,7 +62,7 @@ class Edge(object):
 
 
 class TagGenerator(object):
-    def __init__(self, tag_len=3, error=0.01):
+    def __init__(self, tag_len=5, error=0.01):
         self.error = error
         self.tag_len = tag_len
         self.tag_list = []
