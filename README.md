@@ -113,5 +113,5 @@ After several iterations, we can find the best model in the /data directions. Mu
 
 Please note that if you want to change any parameters for any setting, just open the python file and you will find the parameter setting section in the top. 
 
-For the convenience of re-implementation, we provide all the [mgf] datasets (https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
+For the convenience of re-implementation, we provide all the [mgf datasets](https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
 
