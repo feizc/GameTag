@@ -39,8 +39,13 @@ The formation of res.txt is:  spectrum id  +  extracted tags.
 
 
 
+# Detailed Parameter Setting 
 
-# Training 
+In this section, we will introduce the parameter setting in detail and customize the model you need in real application. 
+
+## How to Evaluate Your Own Dataset?
+
+## How to Train Your Own Model?  
 
 The basic training process is completed as: 
 
@@ -57,11 +62,4 @@ python train.py
 For the convenience of re-implementation, we provide the [mgf](https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
 
 
-# Inference 
-
-You can employ the model checkpoint provided by ours or the best performance model from training by yourself to generate the tag sequences. 
-
-```
-python inference.py 
-```
 
