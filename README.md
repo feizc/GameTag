@@ -98,6 +98,7 @@ At this point, you will hold two files, the mgf file and identification results 
 ```
 python data_label_union.py
 ``` 
+The formation of results file is consistent with Open-pFind, that is 1-th column and 5-th column are spectrum id and peptide sequence.
 
 2. construct the training dataset according to the above two files. Run the cmd as: 
 ```
@@ -113,5 +114,5 @@ python train.py
 After several iterations, we can find the best model in the /data directions. Multiple models may be saved and feel free to use anyone you like. 
 
 
-For the convenience of re-implementation, we provide all the [mgf datasets](https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
+For the convenience of re-implementation, we also provide the [mgf datasets](https://pan.baidu.com/s/1yodL2z1cL7pqn_2Cnu1ydg) (password: j9pd) and [labeled dataset](https://pan.baidu.com/s/1t4vbJ_E2Pr1M4ajS93sQkg) (password: 7jbc) used in our experiments.
 
