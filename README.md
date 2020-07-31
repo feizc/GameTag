@@ -11,7 +11,7 @@ GameTag is a sequence tag generation tool for MS/MS specra. GameTag accepts MS/M
 * numpy
 * [PyTorch](http://pytorch.org/) (>1.0)
 
-# A Simple Test 
+# A Fast and Simple Test 
 
 In this section, we provide a simple test to familiarize yourself with basic operations. 
 
@@ -35,17 +35,9 @@ Yes! you can find the tool operating and the final identification results can be
 ```
 /data / res.txt
 ```
-The formation of res.txt is: 
+The formation of res.txt is:  spectrum id  +  extracted tags. 
 
-20100826_Velos2_AnMi_SA_HeLa_4Da.364.364.3.0.dta   ->  spectrum id 
- 
-DHEVR    -> extracted tags
 
-HQFWR 
- 
-HEVRR 
- 
-QFWRR
 
 
 # Training 
@@ -73,10 +65,3 @@ You can employ the model checkpoint provided by ours or the best performance mod
 python inference.py 
 ```
 
-# Evaluation 
-
-We also provide an evaluation tool for tagging performance which can measure the metrics: sensitivity, tag coverage and average tag number automatically.  
-
-```
-python evaluate.py 
-```
