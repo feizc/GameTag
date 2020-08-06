@@ -86,7 +86,7 @@ python inference.py
 
 Please note the above two approaches are completely equivalent, just select the one you like.  
 
-Finally, we can find the results in the result file you specified
+Finally, we can find the results in the result file you specified.
 
 ## How to Train Your own Model?  
 
